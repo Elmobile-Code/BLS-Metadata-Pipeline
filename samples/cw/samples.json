@@ -1,0 +1,397 @@
+[
+  {
+    "series_id": "CWSR0000SA0",
+    "metadata": {
+      "series_id": "CWSR0000SA0",
+      "area_code": "0000",
+      "item_code": "SA0",
+      "seasonal": "S",
+      "periodicity_code": "R",
+      "base_code": "S",
+      "base_period": "1982-84=100",
+      "series_title": "All items in U.S. city average, urban wage earners and clerical workers, seasonally adjusted",
+      "footnote_codes": "",
+      "begin_year": "1947",
+      "begin_period": "M01",
+      "end_year": "2026",
+      "end_period": "M09",
+      "area_name": "U.S. city average",
+      "item_name": "All items",
+      "periodicity_name": "Monthly",
+      "base_name": "Current",
+      "seasonal_text": "Seasonally Adjusted"
+    },
+    "observations": [
+      {
+        "series_id": "CWSR0000SA0",
+        "year": "1997",
+        "period": "M01",
+        "value": 156.6,
+        "footnote_codes": "",
+        "raw_value": "156.60",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0",
+        "year": "1997",
+        "period": "M02",
+        "value": 156.9,
+        "footnote_codes": "",
+        "raw_value": "156.90",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0",
+        "year": "1997",
+        "period": "M03",
+        "value": 156.9,
+        "footnote_codes": "",
+        "raw_value": "156.90",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0",
+        "year": "1997",
+        "period": "M04",
+        "value": 157.0,
+        "footnote_codes": "",
+        "raw_value": "157.00",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0",
+        "year": "1997",
+        "period": "M05",
+        "value": 157.0,
+        "footnote_codes": "",
+        "raw_value": "157.00",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0",
+        "year": "1997",
+        "period": "M06",
+        "value": 157.3,
+        "footnote_codes": "",
+        "raw_value": "157.30",
+        "period_kind": "monthly"
+      }
+    ]
+  },
+  {
+    "series_id": "CWSR0000SA0E",
+    "metadata": {
+      "series_id": "CWSR0000SA0E",
+      "area_code": "0000",
+      "item_code": "SA0E",
+      "seasonal": "S",
+      "periodicity_code": "R",
+      "base_code": "S",
+      "base_period": "1982-84=100",
+      "series_title": "Energy in U.S. city average, urban wage earners and clerical workers, seasonally adjusted",
+      "footnote_codes": "",
+      "begin_year": "1957",
+      "begin_period": "M01",
+      "end_year": "2026",
+      "end_period": "M09",
+      "area_name": "U.S. city average",
+      "item_name": "Energy",
+      "periodicity_name": "Monthly",
+      "base_name": "Current",
+      "seasonal_text": "Seasonally Adjusted"
+    },
+    "observations": [
+      {
+        "series_id": "CWSR0000SA0E",
+        "year": "1997",
+        "period": "M01",
+        "value": 115.0,
+        "footnote_codes": "",
+        "raw_value": "115.0",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0E",
+        "year": "1997",
+        "period": "M02",
+        "value": 114.7,
+        "footnote_codes": "",
+        "raw_value": "114.7",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0E",
+        "year": "1997",
+        "period": "M03",
+        "value": 112.6,
+        "footnote_codes": "",
+        "raw_value": "112.6",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0E",
+        "year": "1997",
+        "period": "M04",
+        "value": 110.4,
+        "footnote_codes": "",
+        "raw_value": "110.4",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0E",
+        "year": "1997",
+        "period": "M05",
+        "value": 108.1,
+        "footnote_codes": "",
+        "raw_value": "108.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0E",
+        "year": "1997",
+        "period": "M06",
+        "value": 109.4,
+        "footnote_codes": "",
+        "raw_value": "109.4",
+        "period_kind": "monthly"
+      }
+    ]
+  },
+  {
+    "series_id": "CWSR0000SA0L1",
+    "metadata": {
+      "series_id": "CWSR0000SA0L1",
+      "area_code": "0000",
+      "item_code": "SA0L1",
+      "seasonal": "S",
+      "periodicity_code": "R",
+      "base_code": "S",
+      "base_period": "1982-84=100",
+      "series_title": "All items less food in U.S. city average, urban wage earners and clerical workers, seasonally adjusted",
+      "footnote_codes": "",
+      "begin_year": "1947",
+      "begin_period": "M01",
+      "end_year": "2026",
+      "end_period": "M09",
+      "area_name": "U.S. city average",
+      "item_name": "All items less food",
+      "periodicity_name": "Monthly",
+      "base_name": "Current",
+      "seasonal_text": "Seasonally Adjusted"
+    },
+    "observations": [
+      {
+        "series_id": "CWSR0000SA0L1",
+        "year": "1997",
+        "period": "M01",
+        "value": 156.7,
+        "footnote_codes": "",
+        "raw_value": "156.7",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0L1",
+        "year": "1997",
+        "period": "M02",
+        "value": 157.0,
+        "footnote_codes": "",
+        "raw_value": "157.0",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0L1",
+        "year": "1997",
+        "period": "M03",
+        "value": 157.0,
+        "footnote_codes": "",
+        "raw_value": "157.0",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0L1",
+        "year": "1997",
+        "period": "M04",
+        "value": 157.1,
+        "footnote_codes": "",
+        "raw_value": "157.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0L1",
+        "year": "1997",
+        "period": "M05",
+        "value": 157.0,
+        "footnote_codes": "",
+        "raw_value": "157.0",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0L1",
+        "year": "1997",
+        "period": "M06",
+        "value": 157.3,
+        "footnote_codes": "",
+        "raw_value": "157.3",
+        "period_kind": "monthly"
+      }
+    ]
+  },
+  {
+    "series_id": "CWSR0000SA0L1E",
+    "metadata": {
+      "series_id": "CWSR0000SA0L1E",
+      "area_code": "0000",
+      "item_code": "SA0L1E",
+      "seasonal": "S",
+      "periodicity_code": "R",
+      "base_code": "S",
+      "base_period": "1982-84=100",
+      "series_title": "All items less food and energy in U.S. city average, urban wage earners and clerical workers, seasonally adjusted",
+      "footnote_codes": "",
+      "begin_year": "1957",
+      "begin_period": "M01",
+      "end_year": "2026",
+      "end_period": "M09",
+      "area_name": "U.S. city average",
+      "item_name": "All items less food and energy",
+      "periodicity_name": "Monthly",
+      "base_name": "Current",
+      "seasonal_text": "Seasonally Adjusted"
+    },
+    "observations": [
+      {
+        "series_id": "CWSR0000SA0L1E",
+        "year": "1997",
+        "period": "M01",
+        "value": 164.4,
+        "footnote_codes": "",
+        "raw_value": "164.4",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0L1E",
+        "year": "1997",
+        "period": "M02",
+        "value": 164.7,
+        "footnote_codes": "",
+        "raw_value": "164.7",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0L1E",
+        "year": "1997",
+        "period": "M03",
+        "value": 165.0,
+        "footnote_codes": "",
+        "raw_value": "165.0",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0L1E",
+        "year": "1997",
+        "period": "M04",
+        "value": 165.5,
+        "footnote_codes": "",
+        "raw_value": "165.5",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0L1E",
+        "year": "1997",
+        "period": "M05",
+        "value": 165.7,
+        "footnote_codes": "",
+        "raw_value": "165.7",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0L1E",
+        "year": "1997",
+        "period": "M06",
+        "value": 165.9,
+        "footnote_codes": "",
+        "raw_value": "165.9",
+        "period_kind": "monthly"
+      }
+    ]
+  },
+  {
+    "series_id": "CWSR0000SA0L2",
+    "metadata": {
+      "series_id": "CWSR0000SA0L2",
+      "area_code": "0000",
+      "item_code": "SA0L2",
+      "seasonal": "S",
+      "periodicity_code": "R",
+      "base_code": "S",
+      "base_period": "1982-84=100",
+      "series_title": "All items less shelter in U.S. city average, urban wage earners and clerical workers, seasonally adjusted",
+      "footnote_codes": "",
+      "begin_year": "1947",
+      "begin_period": "M01",
+      "end_year": "2026",
+      "end_period": "M09",
+      "area_name": "U.S. city average",
+      "item_name": "All items less shelter",
+      "periodicity_name": "Monthly",
+      "base_name": "Current",
+      "seasonal_text": "Seasonally Adjusted"
+    },
+    "observations": [
+      {
+        "series_id": "CWSR0000SA0L2",
+        "year": "1997",
+        "period": "M01",
+        "value": 153.5,
+        "footnote_codes": "",
+        "raw_value": "153.5",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0L2",
+        "year": "1997",
+        "period": "M02",
+        "value": 153.7,
+        "footnote_codes": "",
+        "raw_value": "153.7",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0L2",
+        "year": "1997",
+        "period": "M03",
+        "value": 153.6,
+        "footnote_codes": "",
+        "raw_value": "153.6",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0L2",
+        "year": "1997",
+        "period": "M04",
+        "value": 153.6,
+        "footnote_codes": "",
+        "raw_value": "153.6",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0L2",
+        "year": "1997",
+        "period": "M05",
+        "value": 153.4,
+        "footnote_codes": "",
+        "raw_value": "153.4",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "CWSR0000SA0L2",
+        "year": "1997",
+        "period": "M06",
+        "value": 153.6,
+        "footnote_codes": "",
+        "raw_value": "153.6",
+        "period_kind": "monthly"
+      }
+    ]
+  }
+]

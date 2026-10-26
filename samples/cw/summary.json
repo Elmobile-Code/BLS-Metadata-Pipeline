@@ -1,0 +1,232 @@
+{
+  "catalog": "CW",
+  "title": "Consumer Price Index for Urban Wage Earners and Clerical Workers",
+  "generated_at": "2026-10-26T21:41:33.574061+00:00",
+  "status": "passed",
+  "series_count": 7868,
+  "unique_series_ids": 7868,
+  "duplicate_series_ids": {},
+  "missing_series_ids": 0,
+  "invalid_series_identifiers": [],
+  "invalid_series_coverage": [],
+  "original_fields": [
+    "series_id",
+    "area_code",
+    "item_code",
+    "seasonal",
+    "periodicity_code",
+    "base_code",
+    "base_period",
+    "series_title",
+    "footnote_codes",
+    "begin_year",
+    "begin_period",
+    "end_year",
+    "end_period"
+  ],
+  "missing_metadata": {
+    "series_id": 0,
+    "area_code": 0,
+    "item_code": 0,
+    "seasonal": 0,
+    "periodicity_code": 0,
+    "base_code": 0,
+    "base_period": 0,
+    "series_title": 0,
+    "footnote_codes": 7868,
+    "begin_year": 0,
+    "begin_period": 0,
+    "end_year": 0,
+    "end_period": 0
+  },
+  "lookup_matches": [
+    {
+      "file": "cw.area",
+      "keys": [
+        "area_code"
+      ],
+      "description_column": "area_name",
+      "lookup_keys": [
+        "area_code"
+      ],
+      "matched": 7868,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "cw.item",
+      "keys": [
+        "item_code"
+      ],
+      "description_column": "item_name",
+      "lookup_keys": [
+        "item_code"
+      ],
+      "matched": 7868,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "cw.periodicity",
+      "keys": [
+        "periodicity_code"
+      ],
+      "description_column": "periodicity_name",
+      "lookup_keys": [
+        "periodicity_code"
+      ],
+      "matched": 7868,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "cw.base",
+      "keys": [
+        "base_code"
+      ],
+      "description_column": "base_name",
+      "lookup_keys": [
+        "base_code"
+      ],
+      "matched": 7868,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "cw.seasonal",
+      "keys": [
+        "seasonal"
+      ],
+      "description_column": "seasonal_text",
+      "lookup_keys": [
+        "seasonal_code"
+      ],
+      "matched": 7868,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    }
+  ],
+  "unmapped_classification_fields": [],
+  "metadata_end_year_counts": {
+    "2026": 6215,
+    "2017": 899,
+    "2024": 399,
+    "1986": 168,
+    "2021": 90,
+    "1997": 53,
+    "2025": 32,
+    "2023": 6,
+    "2018": 4,
+    "2019": 2
+  },
+  "sample_series": 5,
+  "sample_observations": 30,
+  "sample_validation": {
+    "unknown_series_ids": [],
+    "ambiguous_series_ids": [],
+    "invalid_observations": [],
+    "duplicate_observations": [],
+    "nonnumeric_values": 0
+  },
+  "sampling": {
+    "method": "bounded prefix of official data file",
+    "data_file": "cw.data.0.Current",
+    "max_lines": 20000,
+    "note": "First observations encountered; not random or necessarily recent."
+  },
+  "errors": [],
+  "warnings": [],
+  "sources": [
+    {
+      "file": "cw.area",
+      "url": "https://download.bls.gov/pub/time.series/cw/cw.area",
+      "retrieved_at": "2026-10-26T21:40:17.248126+00:00",
+      "bytes": 2185,
+      "sha256": "f4d0442e38dd4c4909a98b9fc8f8bc5fc8146ca4e87e4d9b947461f78af8abeb",
+      "partial": false
+    },
+    {
+      "file": "cw.base",
+      "url": "https://download.bls.gov/pub/time.series/cw/cw.base",
+      "retrieved_at": "2026-10-26T21:40:17.554317+00:00",
+      "bytes": 45,
+      "sha256": "76ffd7898f6208efa31627f1b3f424d1d27e4af367f25cfe12df1784718fe22a",
+      "partial": false
+    },
+    {
+      "file": "cw.footnote",
+      "url": "https://download.bls.gov/pub/time.series/cw/cw.footnote",
+      "retrieved_at": "2026-10-26T21:40:16.508148+00:00",
+      "bytes": 100,
+      "sha256": "d92c2f0b60f9a52f9184f366f9d5b61fc6659181959be718fa332e43f9983903",
+      "partial": false
+    },
+    {
+      "file": "cw.item",
+      "url": "https://download.bls.gov/pub/time.series/cw/cw.item",
+      "retrieved_at": "2026-10-26T21:40:17.314624+00:00",
+      "bytes": 12992,
+      "sha256": "8d12eb1cac6989b7580baafa77f4de593f90a148db1e614fb068475ffd90bab9",
+      "partial": false
+    },
+    {
+      "file": "cw.periodicity",
+      "url": "https://download.bls.gov/pub/time.series/cw/cw.periodicity",
+      "retrieved_at": "2026-10-26T21:40:17.404031+00:00",
+      "bytes": 61,
+      "sha256": "f216b4a52d796e041e428732cd4d6cdc913a832abaede79a8060d3658e7563a6",
+      "partial": false
+    },
+    {
+      "file": "cw.seasonal",
+      "url": "https://download.bls.gov/pub/time.series/cw/cw.seasonal",
+      "retrieved_at": "2026-10-26T21:40:17.611047+00:00",
+      "bytes": 79,
+      "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7",
+      "partial": false
+    },
+    {
+      "file": "cw.series",
+      "url": "https://download.bls.gov/pub/time.series/cw/cw.series",
+      "retrieved_at": "2026-10-26T21:40:16.259294+00:00",
+      "bytes": 1458285,
+      "sha256": "d4b8669e513a78665907de660fdded8d9887fc4a780169e58c904a406b9d8b7e",
+      "partial": false
+    },
+    {
+      "file": "cw.txt",
+      "url": "https://download.bls.gov/pub/time.series/cw/cw.txt",
+      "retrieved_at": "2026-10-26T21:40:16.338984+00:00",
+      "bytes": 14682,
+      "sha256": "5ad24c7f283fbf7ec317f6e9dce169d8967cf3beed2048e9e5f86df8a1dc5a05",
+      "partial": false
+    },
+    {
+      "file": "observations.sample.tsv",
+      "url": "https://download.bls.gov/pub/time.series/cw/cw.data.0.Current",
+      "retrieved_at": "2026-10-26T21:40:17.740572+00:00",
+      "bytes": 58856,
+      "sha256": "7ffca0ab3e67b8cd9aee4839619f27d66bceeabaddfc2703bd9c4f8e3e5ba343",
+      "partial": true,
+      "max_lines": 20000,
+      "sample_series_limit": 5,
+      "observations_per_series": 6,
+      "note": "Bounded prefix, not the complete BLS data file; earliest rows, not random."
+    }
+  ]
+}

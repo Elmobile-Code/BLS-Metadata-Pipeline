@@ -1,0 +1,445 @@
+{
+  "ln": {
+    "title": "Labor Force Statistics from the Current Population Survey",
+    "data_file": "ln.data.1.AllData",
+    "lookups": [
+      {
+        "file": "ln.lfst",
+        "keys": [
+          "lfst_code"
+        ]
+      },
+      {
+        "file": "ln.periodicity",
+        "keys": [
+          "periodicity_code"
+        ]
+      },
+      {
+        "file": "ln.absn",
+        "keys": [
+          "absn_code"
+        ]
+      },
+      {
+        "file": "ln.activity",
+        "keys": [
+          "activity_code"
+        ]
+      },
+      {
+        "file": "ln.ages",
+        "keys": [
+          "ages_code"
+        ]
+      },
+      {
+        "file": "ln.cert",
+        "keys": [
+          "cert_code"
+        ]
+      },
+      {
+        "file": "ln.class",
+        "keys": [
+          "class_code"
+        ]
+      },
+      {
+        "file": "ln.duration",
+        "keys": [
+          "duration_code"
+        ]
+      },
+      {
+        "file": "ln.education",
+        "keys": [
+          "education_code"
+        ]
+      },
+      {
+        "file": "ln.entr",
+        "keys": [
+          "entr_code"
+        ]
+      },
+      {
+        "file": "ln.expr",
+        "keys": [
+          "expr_code"
+        ]
+      },
+      {
+        "file": "ln.hheader",
+        "keys": [
+          "hheader_code"
+        ]
+      },
+      {
+        "file": "ln.hour",
+        "keys": [
+          "hour_code"
+        ]
+      },
+      {
+        "file": "ln.indy",
+        "keys": [
+          "indy_code"
+        ]
+      },
+      {
+        "file": "ln.jdes",
+        "keys": [
+          "jdes_code"
+        ]
+      },
+      {
+        "file": "ln.look",
+        "keys": [
+          "look_code"
+        ]
+      },
+      {
+        "file": "ln.mari",
+        "keys": [
+          "mari_code"
+        ]
+      },
+      {
+        "file": "ln.mjhs",
+        "keys": [
+          "mjhs_code"
+        ]
+      },
+      {
+        "file": "ln.occupation",
+        "keys": [
+          "occupation_code"
+        ]
+      },
+      {
+        "file": "ln.orig",
+        "keys": [
+          "orig_code"
+        ]
+      },
+      {
+        "file": "ln.pcts",
+        "keys": [
+          "pcts_code"
+        ]
+      },
+      {
+        "file": "ln.race",
+        "keys": [
+          "race_code"
+        ]
+      },
+      {
+        "file": "ln.rjnw",
+        "keys": [
+          "rjnw_code"
+        ]
+      },
+      {
+        "file": "ln.rnlf",
+        "keys": [
+          "rnlf_code"
+        ]
+      },
+      {
+        "file": "ln.rwns",
+        "keys": [
+          "rwns_code"
+        ]
+      },
+      {
+        "file": "ln.seek",
+        "keys": [
+          "seek_code"
+        ]
+      },
+      {
+        "file": "ln.sexs",
+        "keys": [
+          "sexs_code"
+        ]
+      },
+      {
+        "file": "ln.tdat",
+        "keys": [
+          "tdat_code"
+        ]
+      },
+      {
+        "file": "ln.vets",
+        "keys": [
+          "vets_code"
+        ]
+      },
+      {
+        "file": "ln.wkst",
+        "keys": [
+          "wkst_code"
+        ]
+      },
+      {
+        "file": "ln.born",
+        "keys": [
+          "born_code"
+        ]
+      },
+      {
+        "file": "ln.chld",
+        "keys": [
+          "chld_code"
+        ]
+      },
+      {
+        "file": "ln.disa",
+        "keys": [
+          "disa_code"
+        ]
+      },
+      {
+        "file": "ln.tlwk",
+        "keys": [
+          "tlwk_code"
+        ]
+      },
+      {
+        "file": "ln.seasonal",
+        "keys": [
+          "seasonal"
+        ],
+        "lookup_keys": [
+          "seasonal_code"
+        ]
+      }
+    ]
+  },
+  "cw": {
+    "title": "Consumer Price Index for Urban Wage Earners and Clerical Workers",
+    "data_file": "cw.data.0.Current",
+    "lookups": [
+      {
+        "file": "cw.area",
+        "keys": [
+          "area_code"
+        ]
+      },
+      {
+        "file": "cw.item",
+        "keys": [
+          "item_code"
+        ]
+      },
+      {
+        "file": "cw.periodicity",
+        "keys": [
+          "periodicity_code"
+        ]
+      },
+      {
+        "file": "cw.base",
+        "keys": [
+          "base_code"
+        ]
+      },
+      {
+        "file": "cw.seasonal",
+        "keys": [
+          "seasonal"
+        ],
+        "lookup_keys": [
+          "seasonal_code"
+        ]
+      }
+    ]
+  },
+  "pc": {
+    "title": "Producer Price Index industry data",
+    "data_file": "pc.data.0.Current",
+    "lookups": [
+      {
+        "file": "pc.industry",
+        "keys": [
+          "industry_code"
+        ]
+      },
+      {
+        "file": "pc.seasonal",
+        "keys": [
+          "seasonal"
+        ],
+        "lookup_keys": [
+          "seasonal_code"
+        ]
+      },
+      {
+        "file": "pc.product",
+        "keys": [
+          "industry_code",
+          "product_code"
+        ],
+        "description": "product_name"
+      }
+    ]
+  },
+  "sm": {
+    "title": "State and Area Employment, Hours, and Earnings",
+    "data_file": "sm.data.0.Current",
+    "lookups": [
+      {
+        "file": "sm.state",
+        "keys": [
+          "state_code"
+        ]
+      },
+      {
+        "file": "sm.area",
+        "keys": [
+          "area_code"
+        ]
+      },
+      {
+        "file": "sm.supersector",
+        "keys": [
+          "supersector_code"
+        ]
+      },
+      {
+        "file": "sm.industry",
+        "keys": [
+          "industry_code"
+        ]
+      },
+      {
+        "file": "sm.data_type",
+        "keys": [
+          "data_type_code"
+        ]
+      },
+      {
+        "file": "sm.seasonal",
+        "keys": [
+          "seasonal"
+        ],
+        "lookup_keys": [
+          "seasonal_code"
+        ]
+      }
+    ]
+  },
+  "le": {
+    "title": "Current Population Survey Earnings",
+    "data_file": "le.data.0.Current",
+    "lookups": [
+      {
+        "file": "le.lfst",
+        "keys": [
+          "lfst_code"
+        ]
+      },
+      {
+        "file": "le.fips",
+        "keys": [
+          "fips_code"
+        ]
+      },
+      {
+        "file": "le.tdata",
+        "keys": [
+          "tdata_code"
+        ]
+      },
+      {
+        "file": "le.pcts",
+        "keys": [
+          "pcts_code"
+        ]
+      },
+      {
+        "file": "le.earn",
+        "keys": [
+          "earn_code"
+        ]
+      },
+      {
+        "file": "le.cert",
+        "keys": [
+          "cert_code"
+        ]
+      },
+      {
+        "file": "le.class",
+        "keys": [
+          "class_code"
+        ]
+      },
+      {
+        "file": "le.unin",
+        "keys": [
+          "unin_code"
+        ]
+      },
+      {
+        "file": "le.indy",
+        "keys": [
+          "indy_code"
+        ]
+      },
+      {
+        "file": "le.occupation",
+        "keys": [
+          "occupation_code"
+        ]
+      },
+      {
+        "file": "le.education",
+        "keys": [
+          "education_code"
+        ]
+      },
+      {
+        "file": "le.ages",
+        "keys": [
+          "ages_code"
+        ]
+      },
+      {
+        "file": "le.race",
+        "keys": [
+          "race_code"
+        ]
+      },
+      {
+        "file": "le.orig",
+        "keys": [
+          "orig_code"
+        ]
+      },
+      {
+        "file": "le.sexs",
+        "keys": [
+          "sexs_code"
+        ]
+      },
+      {
+        "file": "le.born",
+        "keys": [
+          "born_code"
+        ]
+      },
+      {
+        "file": "le.seasonal",
+        "keys": [
+          "seasonal"
+        ],
+        "lookup_keys": [
+          "seasonal_code"
+        ]
+      }
+    ]
+  }
+}

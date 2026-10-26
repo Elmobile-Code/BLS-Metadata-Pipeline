@@ -1,0 +1,402 @@
+[
+  {
+    "series_id": "SMS00000000000000021",
+    "metadata": {
+      "series_id": "SMS00000000000000021",
+      "state_code": "00",
+      "area_code": "00000",
+      "supersector_code": "00",
+      "industry_code": "00000000",
+      "data_type_code": "21",
+      "seasonal": "S",
+      "benchmark_year": "2025",
+      "footnote_codes": "",
+      "begin_year": "1991",
+      "begin_period": "M01",
+      "end_year": "2026",
+      "end_period": "M09",
+      "state_name": "All States",
+      "area_name": "Statewide",
+      "supersector_name": "Total Nonfarm",
+      "industry_name": "Total Nonfarm",
+      "data_type_text": "Diffusion Indexes, 1-month span, seasonally adjusted, total nonfarm",
+      "seasonal_text": "Seasonally Adjusted"
+    },
+    "observations": [
+      {
+        "series_id": "SMS00000000000000021",
+        "year": "2006",
+        "period": "M01",
+        "value": 81.4,
+        "footnote_codes": "",
+        "raw_value": "81.4",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000021",
+        "year": "2006",
+        "period": "M02",
+        "value": 92.2,
+        "footnote_codes": "",
+        "raw_value": "92.2",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000021",
+        "year": "2006",
+        "period": "M03",
+        "value": 94.1,
+        "footnote_codes": "",
+        "raw_value": "94.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000021",
+        "year": "2006",
+        "period": "M04",
+        "value": 65.7,
+        "footnote_codes": "",
+        "raw_value": "65.7",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000021",
+        "year": "2006",
+        "period": "M05",
+        "value": 59.8,
+        "footnote_codes": "",
+        "raw_value": "59.8",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000021",
+        "year": "2006",
+        "period": "M06",
+        "value": 92.2,
+        "footnote_codes": "",
+        "raw_value": "92.2",
+        "period_kind": "monthly"
+      }
+    ]
+  },
+  {
+    "series_id": "SMS00000000000000022",
+    "metadata": {
+      "series_id": "SMS00000000000000022",
+      "state_code": "00",
+      "area_code": "00000",
+      "supersector_code": "00",
+      "industry_code": "00000000",
+      "data_type_code": "22",
+      "seasonal": "S",
+      "benchmark_year": "2025",
+      "footnote_codes": "",
+      "begin_year": "1991",
+      "begin_period": "M01",
+      "end_year": "2026",
+      "end_period": "M09",
+      "state_name": "All States",
+      "area_name": "Statewide",
+      "supersector_name": "Total Nonfarm",
+      "industry_name": "Total Nonfarm",
+      "data_type_text": "Diffusion Indexes, 3-month span, seasonally adjusted, total nonfarm",
+      "seasonal_text": "Seasonally Adjusted"
+    },
+    "observations": [
+      {
+        "series_id": "SMS00000000000000022",
+        "year": "2006",
+        "period": "M01",
+        "value": 93.1,
+        "footnote_codes": "",
+        "raw_value": "93.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000022",
+        "year": "2006",
+        "period": "M02",
+        "value": 92.2,
+        "footnote_codes": "",
+        "raw_value": "92.2",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000022",
+        "year": "2006",
+        "period": "M03",
+        "value": 96.1,
+        "footnote_codes": "",
+        "raw_value": "96.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000022",
+        "year": "2006",
+        "period": "M04",
+        "value": 96.1,
+        "footnote_codes": "",
+        "raw_value": "96.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000022",
+        "year": "2006",
+        "period": "M05",
+        "value": 86.3,
+        "footnote_codes": "",
+        "raw_value": "86.3",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000022",
+        "year": "2006",
+        "period": "M06",
+        "value": 82.4,
+        "footnote_codes": "",
+        "raw_value": "82.4",
+        "period_kind": "monthly"
+      }
+    ]
+  },
+  {
+    "series_id": "SMS00000000000000023",
+    "metadata": {
+      "series_id": "SMS00000000000000023",
+      "state_code": "00",
+      "area_code": "00000",
+      "supersector_code": "00",
+      "industry_code": "00000000",
+      "data_type_code": "23",
+      "seasonal": "S",
+      "benchmark_year": "2025",
+      "footnote_codes": "",
+      "begin_year": "1991",
+      "begin_period": "M01",
+      "end_year": "2026",
+      "end_period": "M09",
+      "state_name": "All States",
+      "area_name": "Statewide",
+      "supersector_name": "Total Nonfarm",
+      "industry_name": "Total Nonfarm",
+      "data_type_text": "Diffusion Indexes, 6-month span, seasonally adjusted, total nonfarm",
+      "seasonal_text": "Seasonally Adjusted"
+    },
+    "observations": [
+      {
+        "series_id": "SMS00000000000000023",
+        "year": "2006",
+        "period": "M01",
+        "value": 92.2,
+        "footnote_codes": "",
+        "raw_value": "92.2",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000023",
+        "year": "2006",
+        "period": "M02",
+        "value": 92.2,
+        "footnote_codes": "",
+        "raw_value": "92.2",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000023",
+        "year": "2006",
+        "period": "M03",
+        "value": 96.1,
+        "footnote_codes": "",
+        "raw_value": "96.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000023",
+        "year": "2006",
+        "period": "M04",
+        "value": 98.0,
+        "footnote_codes": "",
+        "raw_value": "98.0",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000023",
+        "year": "2006",
+        "period": "M05",
+        "value": 93.1,
+        "footnote_codes": "",
+        "raw_value": "93.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000023",
+        "year": "2006",
+        "period": "M06",
+        "value": 98.0,
+        "footnote_codes": "",
+        "raw_value": "98.0",
+        "period_kind": "monthly"
+      }
+    ]
+  },
+  {
+    "series_id": "SMS00000000000000024",
+    "metadata": {
+      "series_id": "SMS00000000000000024",
+      "state_code": "00",
+      "area_code": "00000",
+      "supersector_code": "00",
+      "industry_code": "00000000",
+      "data_type_code": "24",
+      "seasonal": "S",
+      "benchmark_year": "2025",
+      "footnote_codes": "",
+      "begin_year": "1991",
+      "begin_period": "M01",
+      "end_year": "2026",
+      "end_period": "M09",
+      "state_name": "All States",
+      "area_name": "Statewide",
+      "supersector_name": "Total Nonfarm",
+      "industry_name": "Total Nonfarm",
+      "data_type_text": "Diffusion Indexes, 12-month span, seasonally adjusted, total nonfarm",
+      "seasonal_text": "Seasonally Adjusted"
+    },
+    "observations": [
+      {
+        "series_id": "SMS00000000000000024",
+        "year": "2006",
+        "period": "M01",
+        "value": 94.1,
+        "footnote_codes": "",
+        "raw_value": "94.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000024",
+        "year": "2006",
+        "period": "M02",
+        "value": 94.1,
+        "footnote_codes": "",
+        "raw_value": "94.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000024",
+        "year": "2006",
+        "period": "M03",
+        "value": 96.1,
+        "footnote_codes": "",
+        "raw_value": "96.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000024",
+        "year": "2006",
+        "period": "M04",
+        "value": 96.1,
+        "footnote_codes": "",
+        "raw_value": "96.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000024",
+        "year": "2006",
+        "period": "M05",
+        "value": 96.1,
+        "footnote_codes": "",
+        "raw_value": "96.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS00000000000000024",
+        "year": "2006",
+        "period": "M06",
+        "value": 96.1,
+        "footnote_codes": "",
+        "raw_value": "96.1",
+        "period_kind": "monthly"
+      }
+    ]
+  },
+  {
+    "series_id": "SMS01000000000000001",
+    "metadata": {
+      "series_id": "SMS01000000000000001",
+      "state_code": "01",
+      "area_code": "00000",
+      "supersector_code": "00",
+      "industry_code": "00000000",
+      "data_type_code": "01",
+      "seasonal": "S",
+      "benchmark_year": "2025",
+      "footnote_codes": "",
+      "begin_year": "1990",
+      "begin_period": "M01",
+      "end_year": "2026",
+      "end_period": "M09",
+      "state_name": "Alabama",
+      "area_name": "Statewide",
+      "supersector_name": "Total Nonfarm",
+      "industry_name": "Total Nonfarm",
+      "data_type_text": "All Employees, In Thousands",
+      "seasonal_text": "Seasonally Adjusted"
+    },
+    "observations": [
+      {
+        "series_id": "SMS01000000000000001",
+        "year": "2006",
+        "period": "M01",
+        "value": 1985.1,
+        "footnote_codes": "",
+        "raw_value": "1985.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS01000000000000001",
+        "year": "2006",
+        "period": "M02",
+        "value": 1988.7,
+        "footnote_codes": "",
+        "raw_value": "1988.7",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS01000000000000001",
+        "year": "2006",
+        "period": "M03",
+        "value": 1994.2,
+        "footnote_codes": "",
+        "raw_value": "1994.2",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS01000000000000001",
+        "year": "2006",
+        "period": "M04",
+        "value": 1993.5,
+        "footnote_codes": "",
+        "raw_value": "1993.5",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS01000000000000001",
+        "year": "2006",
+        "period": "M05",
+        "value": 1993.1,
+        "footnote_codes": "",
+        "raw_value": "1993.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "SMS01000000000000001",
+        "year": "2006",
+        "period": "M06",
+        "value": 1997.9,
+        "footnote_codes": "",
+        "raw_value": "1997.9",
+        "period_kind": "monthly"
+      }
+    ]
+  }
+]

@@ -1,0 +1,214 @@
+{
+  "catalog": "PC",
+  "title": "Producer Price Index industry data",
+  "generated_at": "2026-10-26T21:41:33.673170+00:00",
+  "status": "passed",
+  "series_count": 4510,
+  "unique_series_ids": 4510,
+  "duplicate_series_ids": {},
+  "missing_series_ids": 0,
+  "invalid_series_identifiers": [],
+  "invalid_series_coverage": [],
+  "original_fields": [
+    "series_id",
+    "industry_code",
+    "product_code",
+    "seasonal",
+    "base_date",
+    "series_title",
+    "footnote_codes",
+    "begin_year",
+    "begin_period",
+    "end_year",
+    "end_period"
+  ],
+  "missing_metadata": {
+    "series_id": 0,
+    "industry_code": 0,
+    "product_code": 0,
+    "seasonal": 0,
+    "base_date": 0,
+    "series_title": 0,
+    "footnote_codes": 4510,
+    "begin_year": 0,
+    "begin_period": 0,
+    "end_year": 0,
+    "end_period": 0
+  },
+  "lookup_matches": [
+    {
+      "file": "pc.industry",
+      "keys": [
+        "industry_code"
+      ],
+      "description_column": "industry_name",
+      "lookup_keys": [
+        "industry_code"
+      ],
+      "matched": 4510,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "pc.seasonal",
+      "keys": [
+        "seasonal"
+      ],
+      "description_column": "seasonal_text",
+      "lookup_keys": [
+        "seasonal_code"
+      ],
+      "matched": 4510,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "pc.product",
+      "keys": [
+        "industry_code",
+        "product_code"
+      ],
+      "description_column": "product_name",
+      "lookup_keys": [
+        "industry_code",
+        "product_code"
+      ],
+      "matched": 4510,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    }
+  ],
+  "unmapped_classification_fields": [],
+  "metadata_end_year_counts": {
+    "2026": 3585,
+    "2018": 69,
+    "2021": 67,
+    "2025": 62,
+    "2022": 60,
+    "2023": 55,
+    "2020": 52,
+    "2019": 49,
+    "2024": 46,
+    "2017": 45,
+    "2003": 36,
+    "2015": 30,
+    "2016": 25,
+    "2009": 22,
+    "2014": 21,
+    "2013": 20,
+    "2008": 18,
+    "2004": 17,
+    "1980": 17,
+    "2012": 16,
+    "2007": 16,
+    "2011": 15,
+    "1997": 14,
+    "2005": 13,
+    "1992": 12,
+    "2010": 11,
+    "1990": 10,
+    "2006": 10,
+    "1998": 10,
+    "1988": 9,
+    "1994": 9,
+    "2000": 8,
+    "1993": 8,
+    "1986": 7,
+    "1991": 7,
+    "2002": 7,
+    "1989": 7,
+    "1995": 7,
+    "1999": 6,
+    "1996": 5,
+    "2001": 4,
+    "1987": 3
+  },
+  "sample_series": 5,
+  "sample_observations": 30,
+  "sample_validation": {
+    "unknown_series_ids": [],
+    "ambiguous_series_ids": [],
+    "invalid_observations": [],
+    "duplicate_observations": [],
+    "nonnumeric_values": 0
+  },
+  "sampling": {
+    "method": "bounded prefix of official data file",
+    "data_file": "pc.data.0.Current",
+    "max_lines": 20000,
+    "note": "First observations encountered; not random or necessarily recent."
+  },
+  "errors": [],
+  "warnings": [],
+  "sources": [
+    {
+      "file": "observations.sample.tsv",
+      "url": "https://download.bls.gov/pub/time.series/pc/pc.data.0.Current",
+      "retrieved_at": "2026-10-26T21:40:19.132189+00:00",
+      "bytes": 66017,
+      "sha256": "8c58ab1b245c97cca2572850b3c54fab6f95a0b5ec0a272517000c5ef6a92193",
+      "partial": true,
+      "max_lines": 20000,
+      "sample_series_limit": 5,
+      "observations_per_series": 6,
+      "note": "Bounded prefix, not the complete BLS data file; earliest rows, not random."
+    },
+    {
+      "file": "pc.footnote",
+      "url": "https://download.bls.gov/pub/time.series/pc/pc.footnote",
+      "retrieved_at": "2026-10-26T21:40:18.398589+00:00",
+      "bytes": 150,
+      "sha256": "2c34208e13e23e809f3eac8ac1bc42c5e975e5b2140e8cba837468a968718959",
+      "partial": false
+    },
+    {
+      "file": "pc.industry",
+      "url": "https://download.bls.gov/pub/time.series/pc/pc.industry",
+      "retrieved_at": "2026-10-26T21:40:18.603385+00:00",
+      "bytes": 42554,
+      "sha256": "716bce1ae837208d916a89d7c8dffc62244371428c241782c27fddef8276623d",
+      "partial": false
+    },
+    {
+      "file": "pc.product",
+      "url": "https://download.bls.gov/pub/time.series/pc/pc.product",
+      "retrieved_at": "2026-10-26T21:40:18.824409+00:00",
+      "bytes": 248864,
+      "sha256": "51847709741b41e60676662d67fa08e3c9ed6ce24935215a641361be2668e025",
+      "partial": false
+    },
+    {
+      "file": "pc.seasonal",
+      "url": "https://download.bls.gov/pub/time.series/pc/pc.seasonal",
+      "retrieved_at": "2026-10-26T21:40:18.753690+00:00",
+      "bytes": 79,
+      "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7",
+      "partial": false
+    },
+    {
+      "file": "pc.series",
+      "url": "https://download.bls.gov/pub/time.series/pc/pc.series",
+      "retrieved_at": "2026-10-26T21:40:18.178634+00:00",
+      "bytes": 853221,
+      "sha256": "df9117c6b909738ffee184244076d0a450775556c8db93454d59751a4dba3b0f",
+      "partial": false
+    },
+    {
+      "file": "pc.txt",
+      "url": "https://download.bls.gov/pub/time.series/pc/pc.txt",
+      "retrieved_at": "2026-10-26T21:40:18.336598+00:00",
+      "bytes": 17371,
+      "sha256": "e736aa310cdc35422d37dacdb9abbe2c86e85a0988fe98ee0ee1792f3b32cf29",
+      "partial": false
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+[
+  {
+    "series_id": "PCU1133--1133--",
+    "metadata": {
+      "series_id": "PCU1133--1133--",
+      "industry_code": "1133--",
+      "product_code": "1133--",
+      "seasonal": "U",
+      "base_date": "198112",
+      "series_title": "PPI industry group data for Logging, not seasonally adjusted",
+      "footnote_codes": "",
+      "begin_year": "1981",
+      "begin_period": "M12",
+      "end_year": "2026",
+      "end_period": "M09",
+      "industry_name": "Logging",
+      "seasonal_text": "Not Seasonally Adjusted",
+      "product_name": "Logging"
+    },
+    "observations": [
+      {
+        "series_id": "PCU1133--1133--",
+        "year": "1998",
+        "period": "M01",
+        "value": 192.3,
+        "footnote_codes": "",
+        "raw_value": "192.3",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU1133--1133--",
+        "year": "1998",
+        "period": "M02",
+        "value": 194.3,
+        "footnote_codes": "",
+        "raw_value": "194.3",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU1133--1133--",
+        "year": "1998",
+        "period": "M03",
+        "value": 194.1,
+        "footnote_codes": "",
+        "raw_value": "194.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU1133--1133--",
+        "year": "1998",
+        "period": "M04",
+        "value": 194.7,
+        "footnote_codes": "",
+        "raw_value": "194.7",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU1133--1133--",
+        "year": "1998",
+        "period": "M05",
+        "value": 191.4,
+        "footnote_codes": "",
+        "raw_value": "191.4",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU1133--1133--",
+        "year": "1998",
+        "period": "M06",
+        "value": 188.9,
+        "footnote_codes": "",
+        "raw_value": "188.9",
+        "period_kind": "monthly"
+      }
+    ]
+  },
+  {
+    "series_id": "PCU11331-11331-",
+    "metadata": {
+      "series_id": "PCU11331-11331-",
+      "industry_code": "11331-",
+      "product_code": "11331-",
+      "seasonal": "U",
+      "base_date": "198112",
+      "series_title": "PPI industry data for Logging, not seasonally adjusted",
+      "footnote_codes": "",
+      "begin_year": "1981",
+      "begin_period": "M12",
+      "end_year": "2026",
+      "end_period": "M09",
+      "industry_name": "Logging",
+      "seasonal_text": "Not Seasonally Adjusted",
+      "product_name": "Logging"
+    },
+    "observations": [
+      {
+        "series_id": "PCU11331-11331-",
+        "year": "1998",
+        "period": "M01",
+        "value": 192.3,
+        "footnote_codes": "",
+        "raw_value": "192.3",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU11331-11331-",
+        "year": "1998",
+        "period": "M02",
+        "value": 194.3,
+        "footnote_codes": "",
+        "raw_value": "194.3",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU11331-11331-",
+        "year": "1998",
+        "period": "M03",
+        "value": 194.1,
+        "footnote_codes": "",
+        "raw_value": "194.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU11331-11331-",
+        "year": "1998",
+        "period": "M04",
+        "value": 194.7,
+        "footnote_codes": "",
+        "raw_value": "194.7",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU11331-11331-",
+        "year": "1998",
+        "period": "M05",
+        "value": 191.4,
+        "footnote_codes": "",
+        "raw_value": "191.4",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU11331-11331-",
+        "year": "1998",
+        "period": "M06",
+        "value": 188.9,
+        "footnote_codes": "",
+        "raw_value": "188.9",
+        "period_kind": "monthly"
+      }
+    ]
+  },
+  {
+    "series_id": "PCU113310113310",
+    "metadata": {
+      "series_id": "PCU113310113310",
+      "industry_code": "113310",
+      "product_code": "113310",
+      "seasonal": "U",
+      "base_date": "198112",
+      "series_title": "PPI industry data for Logging, not seasonally adjusted",
+      "footnote_codes": "",
+      "begin_year": "1981",
+      "begin_period": "M12",
+      "end_year": "2026",
+      "end_period": "M09",
+      "industry_name": "Logging",
+      "seasonal_text": "Not Seasonally Adjusted",
+      "product_name": "Logging"
+    },
+    "observations": [
+      {
+        "series_id": "PCU113310113310",
+        "year": "1998",
+        "period": "M01",
+        "value": 192.4,
+        "footnote_codes": "",
+        "raw_value": "192.4",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU113310113310",
+        "year": "1998",
+        "period": "M02",
+        "value": 194.4,
+        "footnote_codes": "",
+        "raw_value": "194.4",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU113310113310",
+        "year": "1998",
+        "period": "M03",
+        "value": 194.2,
+        "footnote_codes": "",
+        "raw_value": "194.2",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU113310113310",
+        "year": "1998",
+        "period": "M04",
+        "value": 194.8,
+        "footnote_codes": "",
+        "raw_value": "194.8",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU113310113310",
+        "year": "1998",
+        "period": "M05",
+        "value": 191.5,
+        "footnote_codes": "",
+        "raw_value": "191.5",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU113310113310",
+        "year": "1998",
+        "period": "M06",
+        "value": 189.0,
+        "footnote_codes": "",
+        "raw_value": "189.0",
+        "period_kind": "monthly"
+      }
+    ]
+  },
+  {
+    "series_id": "PCU113310113310M",
+    "metadata": {
+      "series_id": "PCU113310113310M",
+      "industry_code": "113310",
+      "product_code": "113310M",
+      "seasonal": "U",
+      "base_date": "198606",
+      "series_title": "PPI industry data for Logging-Miscellaneous receipts, not seasonally adjusted",
+      "footnote_codes": "",
+      "begin_year": "1986",
+      "begin_period": "M06",
+      "end_year": "2022",
+      "end_period": "M07",
+      "industry_name": "Logging",
+      "seasonal_text": "Not Seasonally Adjusted",
+      "product_name": "Miscellaneous receipts"
+    },
+    "observations": [
+      {
+        "series_id": "PCU113310113310M",
+        "year": "1998",
+        "period": "M02",
+        "value": 169.9,
+        "footnote_codes": "",
+        "raw_value": "169.9",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU113310113310M",
+        "year": "1998",
+        "period": "M03",
+        "value": 164.1,
+        "footnote_codes": "",
+        "raw_value": "164.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU113310113310M",
+        "year": "1998",
+        "period": "M04",
+        "value": 171.1,
+        "footnote_codes": "",
+        "raw_value": "171.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU113310113310M",
+        "year": "1998",
+        "period": "M05",
+        "value": 165.6,
+        "footnote_codes": "",
+        "raw_value": "165.6",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU113310113310M",
+        "year": "1998",
+        "period": "M06",
+        "value": 172.3,
+        "footnote_codes": "",
+        "raw_value": "172.3",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU113310113310M",
+        "year": "1998",
+        "period": "M07",
+        "value": 167.0,
+        "footnote_codes": "",
+        "raw_value": "167.0",
+        "period_kind": "monthly"
+      }
+    ]
+  },
+  {
+    "series_id": "PCU113310113310MM",
+    "metadata": {
+      "series_id": "PCU113310113310MM",
+      "industry_code": "113310",
+      "product_code": "113310MM",
+      "seasonal": "U",
+      "base_date": "198606",
+      "series_title": "PPI industry data for Logging-Miscellaneous receipts, not seasonally adjusted",
+      "footnote_codes": "",
+      "begin_year": "1986",
+      "begin_period": "M06",
+      "end_year": "1998",
+      "end_period": "M08",
+      "industry_name": "Logging",
+      "seasonal_text": "Not Seasonally Adjusted",
+      "product_name": "Miscellaneous receipts"
+    },
+    "observations": [
+      {
+        "series_id": "PCU113310113310MM",
+        "year": "1998",
+        "period": "M02",
+        "value": 169.9,
+        "footnote_codes": "",
+        "raw_value": "169.9",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU113310113310MM",
+        "year": "1998",
+        "period": "M03",
+        "value": 164.1,
+        "footnote_codes": "",
+        "raw_value": "164.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU113310113310MM",
+        "year": "1998",
+        "period": "M04",
+        "value": 171.1,
+        "footnote_codes": "",
+        "raw_value": "171.1",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU113310113310MM",
+        "year": "1998",
+        "period": "M05",
+        "value": 165.6,
+        "footnote_codes": "",
+        "raw_value": "165.6",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU113310113310MM",
+        "year": "1998",
+        "period": "M06",
+        "value": 172.3,
+        "footnote_codes": "",
+        "raw_value": "172.3",
+        "period_kind": "monthly"
+      },
+      {
+        "series_id": "PCU113310113310MM",
+        "year": "1998",
+        "period": "M07",
+        "value": 167.0,
+        "footnote_codes": "",
+        "raw_value": "167.0",
+        "period_kind": "monthly"
+      }
+    ]
+  }
+]

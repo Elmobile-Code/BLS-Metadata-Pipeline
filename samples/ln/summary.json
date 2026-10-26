@@ -1,0 +1,1016 @@
+{
+  "catalog": "LN",
+  "title": "Labor Force Statistics from the Current Population Survey",
+  "generated_at": "2026-10-26T21:41:32.028758+00:00",
+  "status": "passed",
+  "series_count": 68626,
+  "unique_series_ids": 68626,
+  "duplicate_series_ids": {},
+  "missing_series_ids": 0,
+  "invalid_series_identifiers": [],
+  "invalid_series_coverage": [],
+  "original_fields": [
+    "series_id",
+    "lfst_code",
+    "periodicity_code",
+    "series_title",
+    "absn_code",
+    "activity_code",
+    "ages_code",
+    "cert_code",
+    "class_code",
+    "duration_code",
+    "education_code",
+    "entr_code",
+    "expr_code",
+    "hheader_code",
+    "hour_code",
+    "indy_code",
+    "jdes_code",
+    "look_code",
+    "mari_code",
+    "mjhs_code",
+    "occupation_code",
+    "orig_code",
+    "pcts_code",
+    "race_code",
+    "rjnw_code",
+    "rnlf_code",
+    "rwns_code",
+    "seek_code",
+    "sexs_code",
+    "tdat_code",
+    "vets_code",
+    "wkst_code",
+    "born_code",
+    "chld_code",
+    "disa_code",
+    "seasonal",
+    "tlwk_code",
+    "footnote_codes",
+    "begin_year",
+    "begin_period",
+    "end_year",
+    "end_period"
+  ],
+  "missing_metadata": {
+    "series_id": 0,
+    "lfst_code": 0,
+    "periodicity_code": 0,
+    "series_title": 0,
+    "absn_code": 0,
+    "activity_code": 0,
+    "ages_code": 0,
+    "cert_code": 0,
+    "class_code": 0,
+    "duration_code": 0,
+    "education_code": 0,
+    "entr_code": 0,
+    "expr_code": 0,
+    "hheader_code": 0,
+    "hour_code": 0,
+    "indy_code": 0,
+    "jdes_code": 0,
+    "look_code": 0,
+    "mari_code": 0,
+    "mjhs_code": 0,
+    "occupation_code": 0,
+    "orig_code": 0,
+    "pcts_code": 0,
+    "race_code": 0,
+    "rjnw_code": 0,
+    "rnlf_code": 0,
+    "rwns_code": 0,
+    "seek_code": 0,
+    "sexs_code": 0,
+    "tdat_code": 0,
+    "vets_code": 0,
+    "wkst_code": 0,
+    "born_code": 0,
+    "chld_code": 0,
+    "disa_code": 0,
+    "seasonal": 0,
+    "tlwk_code": 0,
+    "footnote_codes": 68626,
+    "begin_year": 0,
+    "begin_period": 0,
+    "end_year": 0,
+    "end_period": 0
+  },
+  "lookup_matches": [
+    {
+      "file": "ln.lfst",
+      "keys": [
+        "lfst_code"
+      ],
+      "description_column": "lfst_text",
+      "lookup_keys": [
+        "lfst_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.periodicity",
+      "keys": [
+        "periodicity_code"
+      ],
+      "description_column": "periodicity_text",
+      "lookup_keys": [
+        "periodicity_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.absn",
+      "keys": [
+        "absn_code"
+      ],
+      "description_column": "absn_text",
+      "lookup_keys": [
+        "absn_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.activity",
+      "keys": [
+        "activity_code"
+      ],
+      "description_column": "activity_text",
+      "lookup_keys": [
+        "activity_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.ages",
+      "keys": [
+        "ages_code"
+      ],
+      "description_column": "ages_text",
+      "lookup_keys": [
+        "ages_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.cert",
+      "keys": [
+        "cert_code"
+      ],
+      "description_column": "cert_text",
+      "lookup_keys": [
+        "cert_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.class",
+      "keys": [
+        "class_code"
+      ],
+      "description_column": "class_text",
+      "lookup_keys": [
+        "class_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.duration",
+      "keys": [
+        "duration_code"
+      ],
+      "description_column": "duration_text",
+      "lookup_keys": [
+        "duration_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.education",
+      "keys": [
+        "education_code"
+      ],
+      "description_column": "education_text",
+      "lookup_keys": [
+        "education_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.entr",
+      "keys": [
+        "entr_code"
+      ],
+      "description_column": "entr_text",
+      "lookup_keys": [
+        "entr_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.expr",
+      "keys": [
+        "expr_code"
+      ],
+      "description_column": "expr_text",
+      "lookup_keys": [
+        "expr_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.hheader",
+      "keys": [
+        "hheader_code"
+      ],
+      "description_column": "hheader_text",
+      "lookup_keys": [
+        "hheader_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.hour",
+      "keys": [
+        "hour_code"
+      ],
+      "description_column": "hour_text",
+      "lookup_keys": [
+        "hour_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.indy",
+      "keys": [
+        "indy_code"
+      ],
+      "description_column": "indy_text",
+      "lookup_keys": [
+        "indy_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.jdes",
+      "keys": [
+        "jdes_code"
+      ],
+      "description_column": "jdes_text",
+      "lookup_keys": [
+        "jdes_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.look",
+      "keys": [
+        "look_code"
+      ],
+      "description_column": "look_text",
+      "lookup_keys": [
+        "look_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.mari",
+      "keys": [
+        "mari_code"
+      ],
+      "description_column": "mari_text",
+      "lookup_keys": [
+        "mari_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.mjhs",
+      "keys": [
+        "mjhs_code"
+      ],
+      "description_column": "mjhs_text",
+      "lookup_keys": [
+        "mjhs_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.occupation",
+      "keys": [
+        "occupation_code"
+      ],
+      "description_column": "occupation_text",
+      "lookup_keys": [
+        "occupation_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.orig",
+      "keys": [
+        "orig_code"
+      ],
+      "description_column": "orig_text",
+      "lookup_keys": [
+        "orig_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.pcts",
+      "keys": [
+        "pcts_code"
+      ],
+      "description_column": "pcts_text",
+      "lookup_keys": [
+        "pcts_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.race",
+      "keys": [
+        "race_code"
+      ],
+      "description_column": "race_text",
+      "lookup_keys": [
+        "race_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.rjnw",
+      "keys": [
+        "rjnw_code"
+      ],
+      "description_column": "rjnw_text",
+      "lookup_keys": [
+        "rjnw_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.rnlf",
+      "keys": [
+        "rnlf_code"
+      ],
+      "description_column": "rnlf_text",
+      "lookup_keys": [
+        "rnlf_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.rwns",
+      "keys": [
+        "rwns_code"
+      ],
+      "description_column": "rwns_text",
+      "lookup_keys": [
+        "rwns_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.seek",
+      "keys": [
+        "seek_code"
+      ],
+      "description_column": "seek_text",
+      "lookup_keys": [
+        "seek_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.sexs",
+      "keys": [
+        "sexs_code"
+      ],
+      "description_column": "sexs_text",
+      "lookup_keys": [
+        "sexs_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.tdat",
+      "keys": [
+        "tdat_code"
+      ],
+      "description_column": "tdat_text",
+      "lookup_keys": [
+        "tdat_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.vets",
+      "keys": [
+        "vets_code"
+      ],
+      "description_column": "vets_text",
+      "lookup_keys": [
+        "vets_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.wkst",
+      "keys": [
+        "wkst_code"
+      ],
+      "description_column": "wkst_text",
+      "lookup_keys": [
+        "wkst_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.born",
+      "keys": [
+        "born_code"
+      ],
+      "description_column": "born_text",
+      "lookup_keys": [
+        "born_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.chld",
+      "keys": [
+        "chld_code"
+      ],
+      "description_column": "chld_text",
+      "lookup_keys": [
+        "chld_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.disa",
+      "keys": [
+        "disa_code"
+      ],
+      "description_column": "disa_text",
+      "lookup_keys": [
+        "disa_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.tlwk",
+      "keys": [
+        "tlwk_code"
+      ],
+      "description_column": "tlwk_text",
+      "lookup_keys": [
+        "tlwk_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "ln.seasonal",
+      "keys": [
+        "seasonal"
+      ],
+      "description_column": "seasonal_text",
+      "lookup_keys": [
+        "seasonal_code"
+      ],
+      "matched": 68626,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    }
+  ],
+  "unmapped_classification_fields": [],
+  "metadata_end_year_counts": {
+    "2026": 40002,
+    "2025": 26860,
+    "2019": 1485,
+    "2024": 92,
+    "2016": 52,
+    "2002": 28,
+    "2017": 27,
+    "2012": 18,
+    "2021": 18,
+    "1947": 10,
+    "2013": 8,
+    "2008": 8,
+    "2018": 6,
+    "1999": 6,
+    "2005": 3,
+    "2015": 3
+  },
+  "sample_series": 5,
+  "sample_observations": 30,
+  "sample_validation": {
+    "unknown_series_ids": [],
+    "ambiguous_series_ids": [],
+    "invalid_observations": [],
+    "duplicate_observations": [],
+    "nonnumeric_values": 0
+  },
+  "sampling": {
+    "method": "bounded prefix of official data file",
+    "data_file": "ln.data.1.AllData",
+    "max_lines": 20000,
+    "note": "First observations encountered; not random or necessarily recent."
+  },
+  "errors": [],
+  "warnings": [],
+  "sources": [
+    {
+      "file": "ln.absn",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.absn",
+      "retrieved_at": "2026-10-26T21:40:01.038923+00:00",
+      "bytes": 104,
+      "sha256": "e5d906ad5f0ad15b6bca08a0ec6dff58fee2afcf924d26e664c53cdd8547c821",
+      "partial": false
+    },
+    {
+      "file": "ln.activity",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.activity",
+      "retrieved_at": "2026-10-26T21:40:01.092399+00:00",
+      "bytes": 190,
+      "sha256": "85ef3663cb60667ca8926a72a5e3fc1943c0287458934199356f20c4ad0972b5",
+      "partial": false
+    },
+    {
+      "file": "ln.ages",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.ages",
+      "retrieved_at": "2026-10-26T21:40:01.417945+00:00",
+      "bytes": 716,
+      "sha256": "c31d4094c1faa0f5fed0bfefa62ebe9e74b6337cf90d3a848432046165db2297",
+      "partial": false
+    },
+    {
+      "file": "ln.born",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.born",
+      "retrieved_at": "2026-10-26T21:40:06.669250+00:00",
+      "bytes": 203,
+      "sha256": "dff526c89d8a02817829a2adff5c94bda1efa825c6fbf0685dac9d84c8c732b6",
+      "partial": false
+    },
+    {
+      "file": "ln.cert",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.cert",
+      "retrieved_at": "2026-10-26T21:40:01.475479+00:00",
+      "bytes": 164,
+      "sha256": "f33f33e8003e48f841f9fded6639ea0c455e0b556989137666bca4fc620c9f86",
+      "partial": false
+    },
+    {
+      "file": "ln.chld",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.chld",
+      "retrieved_at": "2026-10-26T21:40:06.746046+00:00",
+      "bytes": 198,
+      "sha256": "224dbca2c64320ced989ec3473687f2097ff56479c52b7b1eef94b85bf006322",
+      "partial": false
+    },
+    {
+      "file": "ln.class",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.class",
+      "retrieved_at": "2026-10-26T21:40:01.564805+00:00",
+      "bytes": 871,
+      "sha256": "4ef0722b00ff4a347b16c46040eee1b0e968ad370b1b75a658d038083fa8c7bb",
+      "partial": false
+    },
+    {
+      "file": "ln.disa",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.disa",
+      "retrieved_at": "2026-10-26T21:40:06.826945+00:00",
+      "bytes": 66,
+      "sha256": "396768aea7567e6ed424950259e975aa5082812705672923e97c9124e6578845",
+      "partial": false
+    },
+    {
+      "file": "ln.duration",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.duration",
+      "retrieved_at": "2026-10-26T21:40:02.028298+00:00",
+      "bytes": 288,
+      "sha256": "80ab0e236836fd38aaf72489173e10f84bf57cefbb602e9914f53fa0a6d8d992",
+      "partial": false
+    },
+    {
+      "file": "ln.education",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.education",
+      "retrieved_at": "2026-10-26T21:40:02.545806+00:00",
+      "bytes": 1010,
+      "sha256": "3a68ed762818e6539419295f532d56a8a793d3685ac8c7f87bf1ed0747002844",
+      "partial": false
+    },
+    {
+      "file": "ln.entr",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.entr",
+      "retrieved_at": "2026-10-26T21:40:02.678810+00:00",
+      "bytes": 58,
+      "sha256": "6e46c5bc625f0ad70029cefc67f206f167b5dd2c5531bb10973bec8c94715f3b",
+      "partial": false
+    },
+    {
+      "file": "ln.expr",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.expr",
+      "retrieved_at": "2026-10-26T21:40:03.074068+00:00",
+      "bytes": 74,
+      "sha256": "4baf1750284cc918d90585dbf2ddef5a6ba3490ecbf3bfcbbd50b86dc25889af",
+      "partial": false
+    },
+    {
+      "file": "ln.footnote",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.footnote",
+      "retrieved_at": "2026-10-26T21:40:00.367918+00:00",
+      "bytes": 1185,
+      "sha256": "5f3f80ca31c5d72b52bd1212871c4b4d52ab5a5db3236399e58475b91f17ad4d",
+      "partial": false
+    },
+    {
+      "file": "ln.hheader",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.hheader",
+      "retrieved_at": "2026-10-26T21:40:03.595168+00:00",
+      "bytes": 52,
+      "sha256": "cffb7bc8565e112e7e284f1a2ac76baf1df668d2499dbb8cb955f37744cf4362",
+      "partial": false
+    },
+    {
+      "file": "ln.hour",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.hour",
+      "retrieved_at": "2026-10-26T21:40:04.119620+00:00",
+      "bytes": 256,
+      "sha256": "357662e42cec89a21afe58b55d6bbbd1e770e679a534bbfbda66f7cf602ef6a7",
+      "partial": false
+    },
+    {
+      "file": "ln.indy",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.indy",
+      "retrieved_at": "2026-10-26T21:40:04.188156+00:00",
+      "bytes": 17724,
+      "sha256": "3dc00d93b48683978398ac669c0cb266202713cb8e874ea11a37dd7062301026",
+      "partial": false
+    },
+    {
+      "file": "ln.jdes",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.jdes",
+      "retrieved_at": "2026-10-26T21:40:04.447487+00:00",
+      "bytes": 70,
+      "sha256": "a38f79b7fb851601b777a830a4232fa28039136e4b25254ffd87dc05981f9bb9",
+      "partial": false
+    },
+    {
+      "file": "ln.lfst",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.lfst",
+      "retrieved_at": "2026-10-26T21:40:00.778581+00:00",
+      "bytes": 2436,
+      "sha256": "69dd0d0f995ac36639f04ec23ab184033a63b05595fabe49e0c253410ee13ac8",
+      "partial": false
+    },
+    {
+      "file": "ln.look",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.look",
+      "retrieved_at": "2026-10-26T21:40:04.726676+00:00",
+      "bytes": 783,
+      "sha256": "c0f6733af2b29ebe91f87649affeed4ab6eaf082209cf049069ad9881889302a",
+      "partial": false
+    },
+    {
+      "file": "ln.mari",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.mari",
+      "retrieved_at": "2026-10-26T21:40:04.977191+00:00",
+      "bytes": 389,
+      "sha256": "7244eab28d5b01d64e040043c3817268e8a493931ea710be40934c3b55c3b6b0",
+      "partial": false
+    },
+    {
+      "file": "ln.mjhs",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.mjhs",
+      "retrieved_at": "2026-10-26T21:40:05.047532+00:00",
+      "bytes": 326,
+      "sha256": "6c080f4482f3a26971a76da6be9617a0515a9df0cad293057da4c09735e75ddb",
+      "partial": false
+    },
+    {
+      "file": "ln.occupation",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.occupation",
+      "retrieved_at": "2026-10-26T21:40:05.106685+00:00",
+      "bytes": 32299,
+      "sha256": "aac32d7d3b5b340906975e6fb4097dd172537eae7ecaf35d2fef37424a587337",
+      "partial": false
+    },
+    {
+      "file": "ln.orig",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.orig",
+      "retrieved_at": "2026-10-26T21:40:05.172780+00:00",
+      "bytes": 459,
+      "sha256": "8bdb76a4074a7d771004f25676a73ae2a3d3fe4207ffa6f16eae53fa67507db3",
+      "partial": false
+    },
+    {
+      "file": "ln.pcts",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.pcts",
+      "retrieved_at": "2026-10-26T21:40:05.280879+00:00",
+      "bytes": 1430,
+      "sha256": "dca43c57a22dcaacf5cd4fddf4f6cd0aad3019b753ca4edc0895fafa65a81ba4",
+      "partial": false
+    },
+    {
+      "file": "ln.periodicity",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.periodicity",
+      "retrieved_at": "2026-10-26T21:40:00.853798+00:00",
+      "bytes": 69,
+      "sha256": "b65d904276253e11ed23d77b9ff2a284568a2027dbdf804ac7a3dbb9f977227f",
+      "partial": false
+    },
+    {
+      "file": "ln.race",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.race",
+      "retrieved_at": "2026-10-26T21:40:05.499400+00:00",
+      "bytes": 343,
+      "sha256": "48ebfb843af42fbc6be012c8011eaeb9a521a21326524b178fa6097adfabca4f",
+      "partial": false
+    },
+    {
+      "file": "ln.rjnw",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.rjnw",
+      "retrieved_at": "2026-10-26T21:40:05.635158+00:00",
+      "bytes": 811,
+      "sha256": "0a529f0cd8a504962d16e48a586f76fca631ba841b590bda68baeba1ab7f686b",
+      "partial": false
+    },
+    {
+      "file": "ln.rnlf",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.rnlf",
+      "retrieved_at": "2026-10-26T21:40:05.709405+00:00",
+      "bytes": 678,
+      "sha256": "275cd40e1ed1cd20701c7f3004af05006ccad83fed36d761087085df74fe8473",
+      "partial": false
+    },
+    {
+      "file": "ln.rwns",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.rwns",
+      "retrieved_at": "2026-10-26T21:40:05.791969+00:00",
+      "bytes": 882,
+      "sha256": "78589fcad88e25867947f8bedd90e1870e0c93626b785b2925ec701cfdf9d16a",
+      "partial": false
+    },
+    {
+      "file": "ln.seasonal",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.seasonal",
+      "retrieved_at": "2026-10-26T21:40:07.134653+00:00",
+      "bytes": 79,
+      "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7",
+      "partial": false
+    },
+    {
+      "file": "ln.seek",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.seek",
+      "retrieved_at": "2026-10-26T21:40:06.022001+00:00",
+      "bytes": 63,
+      "sha256": "f11f3fc0cc7d912bdd5369bdaecf04e0b72efb23f1feb2e3bac801e46e4e77a4",
+      "partial": false
+    },
+    {
+      "file": "ln.series",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.series",
+      "retrieved_at": "2026-10-26T21:39:59.937475+00:00",
+      "bytes": 15287593,
+      "sha256": "4e3dbfbed7cd0037983fec5a481fd9527592a6ab9da8e112e03ff583c02ef54c",
+      "partial": false
+    },
+    {
+      "file": "ln.sexs",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.sexs",
+      "retrieved_at": "2026-10-26T21:40:06.249686+00:00",
+      "bytes": 51,
+      "sha256": "fa02da02ab42bfa2ac816a08b085d575f16ade81d9551d9e9a5b2fe53f53527b",
+      "partial": false
+    },
+    {
+      "file": "ln.tdat",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.tdat",
+      "retrieved_at": "2026-10-26T21:40:06.316217+00:00",
+      "bytes": 611,
+      "sha256": "25c5ad9112494d34149de7e0317935eb3a8b60e524c2c9d7473c7179959ab767",
+      "partial": false
+    },
+    {
+      "file": "ln.tlwk",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.tlwk",
+      "retrieved_at": "2026-10-26T21:40:07.071254+00:00",
+      "bytes": 573,
+      "sha256": "22e9ffc0840bd3db0b9f44f7254ee0cc76f9f60632428d63f48f7b6041b80f6e",
+      "partial": false
+    },
+    {
+      "file": "ln.txt",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.txt",
+      "retrieved_at": "2026-10-26T21:40:00.254495+00:00",
+      "bytes": 14808,
+      "sha256": "a9a089a9294b49a851d38aca16342028cd4bd95e8e0149bb00a470298065db0c",
+      "partial": false
+    },
+    {
+      "file": "ln.vets",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.vets",
+      "retrieved_at": "2026-10-26T21:40:06.544336+00:00",
+      "bytes": 312,
+      "sha256": "858bc0eb5c8edbe3e6b82c4089c3e460d5cd9db0f4331b043051db7b3dbb11c4",
+      "partial": false
+    },
+    {
+      "file": "ln.wkst",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.wkst",
+      "retrieved_at": "2026-10-26T21:40:06.608555+00:00",
+      "bytes": 490,
+      "sha256": "98de26a0cc41c660c48a8dc716b2c33edd0c3bcb62339cb0c514a60ea02d8723",
+      "partial": false
+    },
+    {
+      "file": "observations.sample.tsv",
+      "url": "https://download.bls.gov/pub/time.series/ln/ln.data.1.AllData",
+      "retrieved_at": "2026-10-26T21:40:13.435100+00:00",
+      "bytes": 103658,
+      "sha256": "abcd83b16dda158a0e88b41ed41261449dc31a32584164fc3f3654e7528ee95e",
+      "partial": true,
+      "max_lines": 20000,
+      "sample_series_limit": 5,
+      "observations_per_series": 6,
+      "note": "Bounded prefix, not the complete BLS data file; earliest rows, not random."
+    }
+  ]
+}

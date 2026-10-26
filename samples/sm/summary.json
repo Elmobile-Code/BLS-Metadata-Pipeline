@@ -1,0 +1,247 @@
+{
+  "catalog": "SM",
+  "title": "State and Area Employment, Hours, and Earnings",
+  "generated_at": "2026-10-26T21:41:33.990446+00:00",
+  "status": "passed",
+  "series_count": 22927,
+  "unique_series_ids": 22927,
+  "duplicate_series_ids": {},
+  "missing_series_ids": 0,
+  "invalid_series_identifiers": [],
+  "invalid_series_coverage": [],
+  "original_fields": [
+    "series_id",
+    "state_code",
+    "area_code",
+    "supersector_code",
+    "industry_code",
+    "data_type_code",
+    "seasonal",
+    "benchmark_year",
+    "footnote_codes",
+    "begin_year",
+    "begin_period",
+    "end_year",
+    "end_period"
+  ],
+  "missing_metadata": {
+    "series_id": 0,
+    "state_code": 0,
+    "area_code": 0,
+    "supersector_code": 0,
+    "industry_code": 0,
+    "data_type_code": 0,
+    "seasonal": 0,
+    "benchmark_year": 0,
+    "footnote_codes": 22927,
+    "begin_year": 0,
+    "begin_period": 0,
+    "end_year": 0,
+    "end_period": 0
+  },
+  "lookup_matches": [
+    {
+      "file": "sm.state",
+      "keys": [
+        "state_code"
+      ],
+      "description_column": "state_name",
+      "lookup_keys": [
+        "state_code"
+      ],
+      "matched": 22927,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "sm.area",
+      "keys": [
+        "area_code"
+      ],
+      "description_column": "area_name",
+      "lookup_keys": [
+        "area_code"
+      ],
+      "matched": 22927,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "sm.supersector",
+      "keys": [
+        "supersector_code"
+      ],
+      "description_column": "supersector_name",
+      "lookup_keys": [
+        "supersector_code"
+      ],
+      "matched": 22927,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "sm.industry",
+      "keys": [
+        "industry_code"
+      ],
+      "description_column": "industry_name",
+      "lookup_keys": [
+        "industry_code"
+      ],
+      "matched": 22927,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "sm.data_type",
+      "keys": [
+        "data_type_code"
+      ],
+      "description_column": "data_type_text",
+      "lookup_keys": [
+        "data_type_code"
+      ],
+      "matched": 22927,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    },
+    {
+      "file": "sm.seasonal",
+      "keys": [
+        "seasonal"
+      ],
+      "description_column": "seasonal_text",
+      "lookup_keys": [
+        "seasonal_code"
+      ],
+      "matched": 22927,
+      "unmatched": 0,
+      "blank_codes": 0,
+      "matched_without_description": 0,
+      "match_rate": 1.0,
+      "unmatched_codes": []
+    }
+  ],
+  "unmapped_classification_fields": [],
+  "metadata_end_year_counts": {
+    "2026": 22927
+  },
+  "sample_series": 5,
+  "sample_observations": 30,
+  "sample_validation": {
+    "unknown_series_ids": [],
+    "ambiguous_series_ids": [],
+    "invalid_observations": [],
+    "duplicate_observations": [],
+    "nonnumeric_values": 0
+  },
+  "sampling": {
+    "method": "bounded prefix of official data file",
+    "data_file": "sm.data.0.Current",
+    "max_lines": 20000,
+    "note": "First observations encountered; not random or necessarily recent."
+  },
+  "errors": [],
+  "warnings": [],
+  "sources": [
+    {
+      "file": "observations.sample.tsv",
+      "url": "https://download.bls.gov/pub/time.series/sm/sm.data.0.Current",
+      "retrieved_at": "2026-10-26T21:40:20.978094+00:00",
+      "bytes": 54186,
+      "sha256": "591fe38f36c6e268ec5ac6288830309b3b65cd3f797ba6fe4ae5a68319169ef3",
+      "partial": true,
+      "max_lines": 20000,
+      "sample_series_limit": 5,
+      "observations_per_series": 6,
+      "note": "Bounded prefix, not the complete BLS data file; earliest rows, not random."
+    },
+    {
+      "file": "sm.area",
+      "url": "https://download.bls.gov/pub/time.series/sm/sm.area",
+      "retrieved_at": "2026-10-26T21:40:20.302452+00:00",
+      "bytes": 12644,
+      "sha256": "357930421d05d7883c8ddb7657d0046e55e10e48840de2cb63e106d2d66e5649",
+      "partial": false
+    },
+    {
+      "file": "sm.data_type",
+      "url": "https://download.bls.gov/pub/time.series/sm/sm.data_type",
+      "retrieved_at": "2026-10-26T21:40:20.705601+00:00",
+      "bytes": 819,
+      "sha256": "3b14101486303537f41bcfbd187dcdb7cc5dd6d949830f7d4c9ab4a7f499b2dc",
+      "partial": false
+    },
+    {
+      "file": "sm.footnote",
+      "url": "https://download.bls.gov/pub/time.series/sm/sm.footnote",
+      "retrieved_at": "2026-10-26T21:40:19.948066+00:00",
+      "bytes": 58,
+      "sha256": "f17940d248667a23cf98277cce50daf4962d2eaee4e1db9bae37bc1846f1e2e8",
+      "partial": false
+    },
+    {
+      "file": "sm.industry",
+      "url": "https://download.bls.gov/pub/time.series/sm/sm.industry",
+      "retrieved_at": "2026-10-26T21:40:20.524643+00:00",
+      "bytes": 14684,
+      "sha256": "63562d3efc25f54bc6163fc4282df1abb7c0653d24add398a685f3b4e836dbb9",
+      "partial": false
+    },
+    {
+      "file": "sm.seasonal",
+      "url": "https://download.bls.gov/pub/time.series/sm/sm.seasonal",
+      "retrieved_at": "2026-10-26T21:40:20.767229+00:00",
+      "bytes": 79,
+      "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7",
+      "partial": false
+    },
+    {
+      "file": "sm.series",
+      "url": "https://download.bls.gov/pub/time.series/sm/sm.series",
+      "retrieved_at": "2026-10-26T21:40:19.460528+00:00",
+      "bytes": 1880196,
+      "sha256": "fc59dde823365b8cdb3f38641c65add69e05efdb66f0d502860c2938637ca30c",
+      "partial": false
+    },
+    {
+      "file": "sm.state",
+      "url": "https://download.bls.gov/pub/time.series/sm/sm.state",
+      "retrieved_at": "2026-10-26T21:40:20.226192+00:00",
+      "bytes": 809,
+      "sha256": "147cc20c91412cc8d70dd7003ea70453c20b68b396735bcc55159fd14b74b926",
+      "partial": false
+    },
+    {
+      "file": "sm.supersector",
+      "url": "https://download.bls.gov/pub/time.series/sm/sm.supersector",
+      "retrieved_at": "2026-10-26T21:40:20.451193+00:00",
+      "bytes": 566,
+      "sha256": "b5b2c911026606e401458bc3ec960ebda32878eb3976908b3475204470df96b6",
+      "partial": false
+    },
+    {
+      "file": "sm.txt",
+      "url": "https://download.bls.gov/pub/time.series/sm/sm.txt",
+      "retrieved_at": "2026-10-26T21:40:19.708252+00:00",
+      "bytes": 18150,
+      "sha256": "12fc6e4ee2ac90fcdbdb7c86b7e41879742f519a65d7f2834dfcc0ff04e7b459",
+      "partial": false
+    }
+  ]
+}
